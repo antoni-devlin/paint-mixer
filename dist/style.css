@@ -1,0 +1,40 @@
+body {
+  width: 100%:
+}
+
+main {
+  display: flex;
+  margin: 0 auto;
+}
+
+[class*="color"] {
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  border-radius: 30px;
+}
+
+#color-result {
+  width: 400px;
+  height: 400px;
+  margin: 10px;
+  background-color: red;
+  border-radius: 30px;
+}
+
+.color-1 {
+
+}
+
+.color-2 {
+
+}
+
+.color-result {
+  border-style: solid;
+}
+
+form {
+  width: 150px;
+  margin: 10px;
+}
