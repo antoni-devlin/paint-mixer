@@ -1,23 +1,46 @@
-<main>
-  <div>
-    <div class="color-1">
-    </div>
-    <form>
-      <label for="color1-input">First color</label>
-      <input type="text" id="color1-input" name="First color">
-    </form>
-  </div>
-
-  <div id="color-result">
-
-  </div>
-
-  <div>
-    <div class="color-2">
-    </div>
-    <form>
-      <label for="color2-input">Second color</label>
-      <input type="text" id="color2-input" name="Second color">
-    </form>
-  </div>
-  <main>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paint Mixer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Paint Mixer</h1>
+    </header>
+    <main>
+      <div>
+        <div class="color-1"></div>
+        <form>
+          <label for="color1-input">First color</label>
+          <input
+            maxlength="11"
+            type="text"
+            id="color1-input"
+            name="First color"
+          />
+        </form>
+      </div>
+      <div>
+        <div class="color-result"></div>
+        <p id="color-result-name"></p>
+      </div>
+      <div>
+        <div class="color-2"></div>
+        <form>
+          <label for="color2-input">Second color</label>
+          <input
+            maxlength="11"
+            type="text"
+            id="color2-input"
+            name="Second color"
+          />
+        </form>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
